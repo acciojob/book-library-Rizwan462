@@ -16,5 +16,9 @@ body{
 	text-align: center;
 	width: 85vw;
 	margin: auto;
-	
+}
+.book-library{
+	width: 90vw;
+	margin: auto;
+	background-color:#ffffff;
 }
