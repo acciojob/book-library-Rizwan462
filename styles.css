@@ -1,1 +1,20 @@
 /*  your css code here. If applicable */
+body{
+	margin:0;
+	background-color: #f8f8f8;
+	widows: 100vw;
+}
+#space{
+	width: 90vw;
+	height: 20px;
+	background-color: white;
+	margin: 20px 5vw 20px;
+}
+#price-container{
+	background-color: #2ecc71;
+	color: white;
+	text-align: center;
+	width: 85vw;
+	margin: auto;
+	
+}
