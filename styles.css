@@ -5,10 +5,7 @@ body{
 	widows: 100vw;
 }
 #space{
-	width: 90vw;
-	height: 20px;
-	background-color: white;
-	margin: 20px 5vw 20px;
+	
 }
 #price-container{
 	background-color: #2ecc71;
@@ -16,9 +13,38 @@ body{
 	text-align: center;
 	width: 85vw;
 	margin: auto;
+	padding: 1px 0px 1px 0px;
+	margin-bottom: 50px;
+
 }
-.book-library{
+.book{
 	width: 90vw;
 	margin: auto;
 	background-color:#ffffff;
+	display: flex;
+	flex-direction: column;
+	
+}
+.book-library>div>img{
+	width: 35vw;
+	margin:auto;
+}
+.heading{
+	text-align: center;
+	background-color: #ffffff;
+	width: 90vw;
+	margin: auto;
+	
+}
+.book>h3, .book>p{
+	margin: 0;
+	padding-inline: 20px;
+}
+.book-library{
+	border: 5px solid white;
+	width: 90vw;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	background-color:  0px 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
